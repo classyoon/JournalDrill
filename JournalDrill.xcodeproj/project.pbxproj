@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CAFAA74F28B2DD6E0085F1A4 /* JournalDrillApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFAA74E28B2DD6E0085F1A4 /* JournalDrillApp.swift */; };
-		CAFAA75128B2DD6E0085F1A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFAA75028B2DD6E0085F1A4 /* ContentView.swift */; };
+		CAFAA75128B2DD6E0085F1A4 /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFAA75028B2DD6E0085F1A4 /* JournalListView.swift */; };
 		CAFAA75328B2DD6F0085F1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFAA75228B2DD6F0085F1A4 /* Assets.xcassets */; };
 		CAFAA75628B2DD6F0085F1A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFAA75528B2DD6F0085F1A4 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		CAFAA74B28B2DD6E0085F1A4 /* JournalDrill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalDrill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFAA74E28B2DD6E0085F1A4 /* JournalDrillApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDrillApp.swift; sourceTree = "<group>"; };
-		CAFAA75028B2DD6E0085F1A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAFAA75028B2DD6E0085F1A4 /* JournalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListView.swift; sourceTree = "<group>"; };
 		CAFAA75228B2DD6F0085F1A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAFAA75528B2DD6F0085F1A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				CAFAA74E28B2DD6E0085F1A4 /* JournalDrillApp.swift */,
-				CAFAA75028B2DD6E0085F1A4 /* ContentView.swift */,
+				CAFAA75028B2DD6E0085F1A4 /* JournalListView.swift */,
 				CAFAA75228B2DD6F0085F1A4 /* Assets.xcassets */,
 				CAFAA75428B2DD6F0085F1A4 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAFAA75128B2DD6E0085F1A4 /* ContentView.swift in Sources */,
+				CAFAA75128B2DD6E0085F1A4 /* JournalListView.swift in Sources */,
 				CAFAA74F28B2DD6E0085F1A4 /* JournalDrillApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
